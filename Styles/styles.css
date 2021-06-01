@@ -1,0 +1,206 @@
+/* 
+codigo para limpar css
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* 
+codigo editado
+*/
+body {
+  background-color: #40336c;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/* navegação */
+header {
+	background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+/* painel incial onde os divs ficarão dentro */
+
+.panel{
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+}
+
+/* dar style para todos os divs */
+.table {
+  border: 3px #c1c1bf solid;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #9826cc;
+  width: 200px;
+  text-align: center;
+}
+
+.table:hover {
+  background-color: #9826cc;
+  offset: 12px;
+}
+
+.img {
+  margin-bottom: 25px;
+  size: 25px;
+}
+/* cada div com um stilo e duração de animação */
+.first {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: initial;
+}
+.second {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+  animation-iteration-count: initial;
+}
+.third {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: initial;
+}
+@keyframes slidein {
+  0% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+button {
+  width: auto;
+}
+ul,li{
+	display: flex;
+}
